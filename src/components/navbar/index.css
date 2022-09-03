@@ -1,0 +1,156 @@
+/*Menu de Navegação*/
+.app__navbar{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.6rem ;
+}
+
+.app__navbar-center{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+/*Menu de Navegação - Foto e Nome do perfil*/
+.navbar__perfil{
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__perfil-img{
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.navbar__perfil-img img{
+  width: 100%;
+  height: 175%;
+  object-fit: contain;
+  margin-top: -30px;
+}
+
+.navbar__perfil-name{
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  transition: all .4s ease-out;
+}
+
+.navbar__perfil-name a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__perfil-name:hover{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  border-bottom: 1px solid #dc3545;
+}
+
+.navbar__perfil-name h2::selection{
+  color: black;
+  background-color: white;
+}
+
+/*Menu Central*/
+.navbar__portfolio{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 1px
+}
+
+.navbar__portfolio a{
+  text-decoration: none;  
+  color: white;
+  transition: all .4s ease-out;
+  margin-left: 105px;
+}
+
+.navbar__portfolio h2::selection{
+  color: black;
+  background-color: white;
+}
+
+.navbar__portfolio a:hover{
+  font-size: 15px;
+  border-bottom: 1px solid #dc3545;
+}
+
+/*Redes Sociais*/
+.nav__socials{
+  width: 18%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.nav__socials li a{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.social__facebook{
+  height: 20px;
+  width: 20px;
+}
+
+.social__facebook:hover{
+  color: 	#4267B2;
+  transition: 0.5s ease;
+}
+
+.social__instagram{
+  overflow: hidden;
+  border-radius: px;
+  height: 20px;
+  width: 20px;
+  
+  
+}
+
+.social__instagram:hover{
+  background-image: linear-gradient(to bottom left, #8a3ab9, #e95950, #bc2a8d, #fbad50, #fccc63);
+  border-radius: 6px;
+  transition: .5s ease all;
+}
+
+.social__github{
+  height: 20px;
+  width: 20px;
+}
+
+.social__github:hover{
+  color: #4b4747;
+  transition: .5s ease;
+}
+
+.social__linkedin{
+  height: 20px;
+  width: 20px;
+}
+
+.social__linkedin:hover{
+  color: #0072b1;
+  transition: 0.5s ease;
+}
+
+.nav_translation{
+  margin-left: 35px;
+}
+
+.nav_translation:hover{
+  color: #0072b1;
+  transition: 0.5s ease;
+}

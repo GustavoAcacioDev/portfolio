@@ -1,0 +1,140 @@
+/*Primeira seção da página*/
+
+.app__section{
+  width: 60%;
+  height: 87vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__section-one{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.app__section-one h4{
+  font-size: 90px;
+  font-weight: 500;
+  margin-left: 30px;
+  font-family: 'Playfair Display',serif;
+  color: white;
+}
+
+.app__section-one h4::selection{
+  color: black;
+  background-color: white;
+}
+
+.app__section-one p{
+  font-size: 20px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  font-family: 'IBM Plex Mono',monospace;
+  color: #999;
+}
+
+.app__section-one p::selection{
+  color: black;
+  background-color: white;
+}
+
+.app__section-one button{
+  width: 110px;
+  height: 40px;
+  margin-left: 35px;
+  margin-top: 15px;
+  background-color: white;
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'IBM Plex Mono',monospace;
+  font-size: 16px;
+  color: black;
+  user-select: none;
+  transition: all .4s ease-out;
+}
+
+.app__section-one button:hover{
+  width: 125px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.app__section-one a{
+  text-decoration: none
+}
+
+/*Segunda seção da Página*/
+.app__section-two{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.app__section-two-box{
+  width: 100%;
+  height: 24%;
+}
+
+.app__section-two-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  font-family: 'IBM Plex Mono',monospace;
+  
+  color: white;
+}
+
+.app__section-two-box div{
+  width: 73%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: 'IBM Plex Mono',monospace;
+  
+  color: white;
+}
+
+.app__section-two-box h4{
+  font-size: 18px;
+  font-weight: bold;
+  color: #33d06c;
+}
+
+.app__section-two-box h4::selection{
+  color: #014319;;
+  background-color: white;
+}
+
+.app__section-two-box span{
+  color: #dc3545;
+}
+
+.color-p{
+  color: #999;
+}
+
+.color-p::selection{
+  color: black;
+  background-color: white;  
+}
+
+.app__section-two-box span::selection{
+  color: #ff0019;
+  background-color: white;  
+}

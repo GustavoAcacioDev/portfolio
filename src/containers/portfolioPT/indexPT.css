@@ -1,0 +1,91 @@
+.navbar__perfil-name-2{
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  transition: all .4s ease-out;
+}
+
+.navbar__perfil-name-2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__perfil-name-2:hover{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  border-bottom: 1px solid #dc3545;
+}
+
+.navbar__perfil-name-2 h2::selection{
+  color: black;
+  background-color: white;
+}
+
+.navbar__portfolio-2{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 1px
+}
+
+.navbar__portfolio-2 a{
+  text-decoration: none;  
+  color: white;
+  transition: all .4s ease-out;
+  margin-left: 125px;
+  cursor: pointer;
+}
+
+.navbar__portfolio-2 a::selection{
+  color: black;
+  background-color: white;
+}
+
+
+
+.navbar__portfolio-2 a:hover{
+  font-size: 28px;
+  border-bottom: 1px solid #dc3545;
+}
+
+.app__section-portfolio{
+  width: 100%;
+  height: 89vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app__section-portfolio-title{
+  height: 4rem;
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15px;
+  letter-spacing: 1px
+}
+
+.app__section-portfolio-content{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app__section-portfolio-contents{
+  width: 40rem;
+  height: 25rem;
+
+  display: flex;
+  justify-content:center;
+
+  font-size: 2rem;
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+}
